@@ -1,0 +1,14 @@
+fun sum(a: Int, b: Int): Int {
+    return a + b
+}
+
+fun main() {
+    val result1 = sum(5, 10)
+    println("The sum of 5 and 10 is: $result1")
+
+    val result2 = sum(20, 30)
+    println("The sum of 20 and 30 is: $result2")
+
+    val result3 = sum(-3, 7)
+    println("The sum of -3 and 7 is: $result3")
+}
