@@ -1,0 +1,6 @@
+fun main() {
+    val multiply: (Int, Int) -> Int = { a, b -> a * b }
+
+    val result = multiply(6, 7)
+    println("The product of 6 and 7 is: $result")
+}
